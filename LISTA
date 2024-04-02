@@ -1,0 +1,60 @@
+Izabella Ferreira Gomes - 123697 
+
+Questão 1) I - A afirmação está correta. A camada de rede é responsável por rotear pacotes entre diferentes redes, fornecendo conexões entre elas. 
+II - A afirmação está incorreta. A camada de Enlace de dados é responsável pela transmissão confiável de dados através de um único enlace de comunicação, organizando os bits em frames. 
+III - A afirmação está parcialmente correta. A camada de Transporte é realmente responsável por fornecer comunicação de processo a processo, garantindo que os dados sejam entregues de forma confiável e ordenada, se necessário. Porém, a criptografia e a compressão de dados geralmente não são funções associadas diretamente à camada de Transporte, mas sim a camadas superiores do modelo OSI, como a camada de Aplicação.
+ 
+Questão 2) Modelo OSI: 7 camadas:
+Camada física: esta camada lida com a transmissão física de dados através de meios de comunicação, como cabos, sinais elétricos ou ondas de rádio.
+Camada de enlace de dados: responsável pela transmissão confiável de dados entre dispositivos adjacentes na mesma rede local. Ele também lida com controle de erros, controle de acesso à mídia e controle de fluxo.
+Camada de rede: responsável pela comunicação entre diferentes redes. Ele roteia pacotes entre diferentes redes, decidindo a melhor rota de transmissão e resolvendo problemas como congestionamento.
+Camada de transporte: fornece comunicação ponta a ponta para garantir a entrega confiável e ordenada de dados quando necessário. Controla o fluxo de dados e fornece detecção e correção de erros.
+Camada de sessão: gerencie comunicações entre sistemas e estabeleça, mantenha e encerre conexões entre aplicativos.
+Camada de apresentação: ele lida com a conversão, compactação e criptografia de dados para garantir que dispositivos em redes diferentes possam compreender as informações compartilhadas.
+Camada de aplicação: essa camada lida com os detalhes da aplicação e da comunicação do usuário final. Ela fornece uma interface para o usuário interagir com o software da rede, permitindo que aplicativos de software façam uso da rede para comunicação.
+Modelo TCP/IP: 4 camadas:
+Camada de Acesso à Rede: responsável pela comunicação com a rede física e detalhes como endereçamento físico e controle de fluxo.
+Camada da Internet: gerencia o roteamento dos pacotes IP entre diferentes redes, utilizando roteadores para determinar o melhor caminho.
+Camada de Transporte: fornece entrega confiável e ordenada de dados entre hosts, utilizando protocolos como TCP e UDP.
+Camada de Aplicação: incorpora funcionalidades das camadas de Sessão, Apresentação e Aplicação do modelo OSI. Fornece serviços de rede diretamente às aplicações do usuário.
+A diferença entre os dois modelos reside na sua abordagem e complexidade.
+
+Questão 3) a) Há a topologia estrela, barramento, anel, árvore, malha/mash e a híbrida.
+b) É importante considerar vários fatores, como tamanho da rede, tipo de tráfego, requisitos de desempenho, confiabilidade e orçamento disponível. Se a sua rede exigir alta confiabilidade e tolerância a falhas, uma topologia mesh pode ser a melhor escolha, pois fornece redundância. No entanto, se você estiver preocupado com o custo e quiser uma solução mais simples, uma topologia em estrela pode ser mais adequada.
+
+Questão 4) I- Correta.
+II- Incorreta, Metropolitan Area Network, ou Rede de Área Metropolitana, é um escopo de rede intermediário entre uma LAN e uma WAN.Trata-se de uma rede localizada em uma área geográfica confinada e bem definida, de tamanho médio, como por exemplo em um município ou região metropolitana.
+III- Incorreta, Wide Area Network, ou Rede de Área Ampla. Em uma WAN a comunicação se dá em uma distância relativamente (ou muito) longa. Podemos usar uma WAN para conectar uma LAN em um local a outra LAN em um local remoto, que pode estar localizada em um prédio vizinho ou do outro lado do planeta.
+
+Questão 5) O IPv4 (Internet Protocol version 4) e o IPv6 (Internet Protocol version 6) são protocolos de comunicação utilizados para identificar e rotear pacotes de dados na Internet. O IPv4, com seus endereços de 32 bits, estava rapidamente se esgotando devido à crescente demanda por endereços IP devido à expansão da Internet. O surgimento do IPv6, com seus endereços de 128 bits, foi uma resposta direta a essa escassez iminente. Uma das principais diferenças entre o IPv4 e o IPv6 está na capacidade de endereçamento. O IPv4 oferece cerca de 4,3 bilhões de endereços únicos, enquanto o IPv6 pode fornecer um número praticamente ilimitado de endereços, na ordem de 340 undecilhões. 
+
+Questão 6) O intervalo correto para cada octeto de um endereço de IP é de 0 a 255, portanto seria necessário corrigir o segundo e o último octeto (contém valores acima de 255).
+
+Questão 7) Endereço IP: 192.168.100.15 ; Máscara de sub-rede: 255.255.0.0
+
+Questão 8) IP em binário = 11001000.10000000.10100100.11100010
+Máscara de sub-rede: 255.255.255.192 e em binário = 11111111.11111111.11111111.11000000
+AND 11001000.10000000.10100100.11100010
+11111111.11111111.11111111.11000000
+= 11001000.10000000.11000000 
+= 200.128.164.192
+
+Questão 09) a) 11111111.11111111.11111111.11110000 - Logo, a máscara de sub-rede = 255.255.255.240
+b) 2^n - 2 = 2^4 - 2 = 16-2 = 14 hosts.
+c) 192.168.1.15
+
+Questão 10)  2^n - 2 ≥ 50 = 2^6 - 2 = 62 hosts.
+32 - 6 = 26 bits
+255.255.255.192 ou /26
+
+
+
+
+
+
+
+
+
+
+
+
